@@ -493,13 +493,13 @@ about section
 /* service section */
 .service-section
 {
-    background-color: var(--dark);
+    background-color: var(--dark-light);
 }
 
 /* team section */
 .team-section
 {
-    background-color: var(--dark);
+    background-color: var(--dark-light);
     padding-bottom: 125px;
 }
 
