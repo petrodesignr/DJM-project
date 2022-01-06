@@ -33,6 +33,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: var(--white-light);
+    overflow-x: hidden;
 }
 
 img {
@@ -73,6 +74,7 @@ p {
 .container {
     max-width: 1170px;
     margin: auto;
+    overflow-x: hidden;
 }
 
 .row {
@@ -605,6 +607,11 @@ about section
         padding: 0;
     }
 
+    .home-section
+    {
+        overflow-x: hidden;
+    }
+
     .about-section
     {
         overflow-x: hidden;
@@ -626,12 +633,50 @@ about section
         width: 50%;
     }
 
-    .team-item:not(:last-child) {
-        margin-bottom: 75px;
+    .team-item-info h3 {
+        font-size: 15px;
+        text-transform: capitalize;
+        margin: 0 0 2px;
     }
+
+    .team-item-info p {
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+
+    .footer-item h3 {
+        text-transform: capitalize;
+        font-size: 18px;
+        margin: 0 0 15px;
+    }
+
+    .footer-item p {
+        line-height: 24px;
+    }
+
 }
 
 @media(max-width:767px) {
+        html, body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-section {
+        overflow-x: hidden;
+    }
+
+    .about-section {
+        overflow-x: hidden;
+    }
+
+    .service-section {
+        display: flex;
+    }
+
     .home-text h1 {
         font-size: 50px;
         line-height: 65px;
@@ -641,6 +686,22 @@ about section
     .about-text,
     .about-img {
         width: 100%;
+    }
+
+    .team-item-info {
+        width: 40%;
+        background-color: var(--dark-light);
+        transform: translatey(50%);
+    }
+
+    .team-item-info h3 {
+        font-size: 18px;
+        text-transform: capitalize;
+        margin: 0 0 0px;
+    }
+
+    .team-item-info p {
+        text-transform: capitalize;
     }
 
     .about-img {
@@ -657,6 +718,22 @@ about section
 }
 
 @media(max-width:575px) {
+        html, body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-section {
+        overflow-x: hidden;
+    }
+
+    .about-section {
+        overflow-x: hidden;
+    }
+
     .team-item {
         width: 100%;
         padding: 0px;
@@ -668,18 +745,30 @@ about section
     }
 
     .team-item-info {
-        width: 40%;
+        width: 25%;
         background-color: var(--dark-light);
-        transform: translate(55%, 50%);
+        transform: translatey(50%);
     }
 
     .team-item-info h3 {
-        font-size: 18px;
+        font-size: 12px;
         text-transform: capitalize;
         margin: 0 0 0px;
     }
 
     .team-item-info p {
+        font-size: 10px;
         text-transform: capitalize;
+    }
+
+    .footer-item h3 {
+        text-transform: capitalize;
+        font-size: 15px;
+        margin: 0 0 15px;
+    }
+
+    .footer-item p {
+        font-size: 12px;
+        line-height: 24px;
     }
 }
