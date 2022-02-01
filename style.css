@@ -610,6 +610,14 @@ about section
         padding: 0;
     }
 
+    .header .logo {
+        width: 5%;
+        min-height: 34px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
     .home-section
     {
         overflow-x: hidden;
@@ -666,6 +674,14 @@ about section
         height: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .header .logo {
+        width: 10%;
+        min-height: 34px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
     }
 
     .home-section {
@@ -726,6 +742,14 @@ about section
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .header .logo {
+        width: 10%;
+        min-height: 34px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
     }
 
     .about-img .img-box::before
