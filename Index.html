@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        $("#flip").click(function () {
+        $("#panel").slideToggle("slow");
+        });
+        });
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aos.css">
     <title>DJM GROUPE</title>
@@ -69,8 +77,23 @@
                         et innovantes, répondant aux exigences spécifiques de nos clients sur tout le territoire
                         Français et à l’étranger.
                     </p>
-                    <a href="#read-more" class="btn btn-default"> En Savoir +</a>
+                    <div id="panel">DJM Groupe possède un bureau d’études d’ingénierie, dont la mission est d’apporter
+                        son expertise dans le domaine industriel comme précité plus haut, permettant à l’entreprise de
+                        réaliser les conceptions industrielles diverses, tel que : les Conceptions à toutes les phases
+                        APS et APD, plans d’exécutions et de détails, mais aussi toutes Etudes en génie civil
+                        (conception, implantation, calculs, plans etc…). <br>
+                        Il est également chargé du suivi et de l’exécution de tous les plans liés aux fabrications des
+                        pièces pour des travaux chantiers. <br>
+                        Alliant rigueur, créativité et un excellent esprit d’équipe, nos ingénieurs relèvent les
+                        différents challenges techniques des grands projets. Ils analysent et identifient avec précision
+                        les contraintes dès la phase d’avant-projet tout en conseillant et orientant le client
+                        partenaire. Nos ingénieurs jouissent d’une grande expérience et connaissent les multiples genres
+                        de structures exploités dans le bâtiment ainsi que les matériaux utilisés pour les fonder qu’il
+                        s’agisse de béton, de métal, de bois ou d’une association entre ces différents matériaux.
+                    </div>
+                    <a href="#read-more" class="btn btn-default" id="flip"> En Savoir +</a>
                 </div>
+                
                 <div class="about-img" data-aos="fade-left" data-aos-duration="1000">
                     <div class="img-box">
                         <h3>+10 ans d'experiences</h3>
@@ -261,12 +284,12 @@
                     <p>contact : 07 68 91 40 02</p>
                     <p>Fixe : 09 85 13 94 07</p>
                     <p>Mail : contact.be@groupedjm.com</p>
-                    <div class="social-links">
+                    <!--<div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="row">
