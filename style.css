@@ -483,6 +483,17 @@ about section
     margin: 0 0 15px;
 }
 
+/* TDR */
+.TDR-section {
+    background-color: var(--dark-light);
+}
+
+.TDR-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* team section */
 .team-section {
