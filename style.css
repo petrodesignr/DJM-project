@@ -709,6 +709,19 @@ about section
         flex-direction: row;
     }
 
+    .TDR
+    {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .row_T
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
     .team-item {
         width: 50%;
     }
@@ -762,6 +775,10 @@ about section
     }
 
     .service-section {
+        display: flex;
+    }
+
+    .TDR {
         display: flex;
     }
 
@@ -879,6 +896,28 @@ about section
 
     .about-text_1 h3,
     .about-text_2 h3
+    {
+        font-size: 22px;
+    }
+
+    .row_T
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .TDR-text_1,
+    .TDR-text_2,
+    .TDR-text_3
+    {
+    width: 90%;
+    text-align: center;
+    }
+
+    .TDR-text_1 h3,
+    .TDR-text_2 h3,
+    .TDR-text_3 h3
     {
         font-size: 22px;
     }
