@@ -29,7 +29,6 @@ global settings
 body {
     font-size: 16px;
     line-height: 1.5;
-    -webkit-tap-highlight-color: transparent;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: var(--white-light);
@@ -135,7 +134,6 @@ p {
     font-family: inherit;
     color: var(--main-color);
     line-height: 1.5;
-    user-select: none;
     border: none;
 }
 
@@ -565,7 +563,6 @@ about section
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
     position: relative;
 }
 
@@ -905,7 +902,6 @@ about section
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-evenly;
         position: relative;
     }
 
