@@ -484,14 +484,64 @@ about section
 }
 
 /* TDR */
-.TDR-section {
-    background-color: var(--dark-light);
+.TDR
+{
+    background-color: #eaa023;
+    background-image: url(./pexels-jeshootscom-834892.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.TDR::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.container-TDR
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .TDR-row
 {
     display: flex;
     flex-direction: row;
+}
+.TDR-row-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row_T 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.TDR-text_1,
+.TDR-text_2,
+.TDR-text_3
+{
+    width: 100%;
+    margin: 30px 30px;
+    background-color: #191f3a;
+    line-height: 2.5;
+    border-radius: 30px;
 }
 
 
